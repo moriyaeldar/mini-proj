@@ -1,0 +1,9 @@
+<section class="user">
+  <h3>User</h3>
+  <select [(ngModel)]="users" (ngModelChange)="this.saveUser($event)">
+    <ng-container *ngFor="let user of users">
+  <option (value)="user.id" >{{user.displayName}}</option>
+</ng-container>
+  </select>
+</section>
+  

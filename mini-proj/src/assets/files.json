@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "css",
+    "parentFileId": null,
+    "fileTypeId": 1,
+    "chmod": 777,
+    "createdAt": "2018-11-02T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 7,
+    "name": "layout.css",
+    "parentFileId": 1,
+    "fileTypeId": 2,
+    "chmod": 755,
+    "createdAt": "2018-11-02T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 8,
+    "name": "layout.min.css",
+    "parentFileId": 1,
+    "fileTypeId": 2,
+    "chmod": 645,
+    "createdAt": "2018-11-02T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 2,
+    "name": "js",
+    "parentFileId": null,
+    "fileTypeId": 1,
+    "chmod": 755,
+    "createdAt": "2018-11-02T10:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 9,
+    "name": "main.min.js",
+    "parentFileId": 2,
+    "fileTypeId": 2,
+    "chmod": 755,
+    "createdAt": "2018-11-02T11:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 10,
+    "name": "main.js",
+    "parentFileId": 2,
+    "fileTypeId": 2,
+    "chmod": 777,
+    "createdAt": "2018-11-02T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 3,
+    "name": "assets",
+    "parentFileId": null,
+    "fileTypeId": 1,
+    "chmod": 755,
+    "createdAt": "2018-11-02T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 4,
+    "name": "images",
+    "parentFileId": 3,
+    "fileTypeId": 1,
+    "chmod": 755,
+    "createdAt": "2018-11-02T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 11,
+    "name": "background.jpg",
+    "parentFileId": 4,
+    "fileTypeId": 2,
+    "chmod": 744,
+    "createdAt": "2018-11-02T10:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 12,
+    "name": "edit-icon.jpg",
+    "parentFileId": 4,
+    "fileTypeId": 2,
+    "chmod": 744,
+    "createdAt": "2018-11-02T11:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 11,
+    "name": "delete-icon.jpg",
+    "parentFileId": 4,
+    "fileTypeId": 2,
+    "chmod": 744,
+    "createdAt": "2018-11-02T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 5,
+    "name": "fonts",
+    "parentFileId": 3,
+    "fileTypeId": 1,
+    "chmod": 755,
+    "createdAt": "2018-11-02T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 12,
+    "name": "poalim.ttf",
+    "parentFileId": 5,
+    "fileTypeId": 2,
+    "chmod": 744,
+    "createdAt": "2018-11-02T10:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 13,
+    "name": "poalim.eot",
+    "parentFileId": 5,
+    "fileTypeId": 2,
+    "chmod": 744,
+    "createdAt": "2018-11-02T11:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 14,
+    "name": "poalim.svg",
+    "parentFileId": 5,
+    "fileTypeId": 2,
+    "chmod": 744,
+    "createdAt": "2018-11-02T11:30:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 6,
+    "name": "videos",
+    "parentFileId": 3,
+    "fileTypeId": 1,
+    "chmod": 755,
+    "createdAt": "2018-11-02T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 15,
+    "name": "loan.webm",
+    "parentFileId": 6,
+    "fileTypeId": 2,
+    "chmod": 644,
+    "createdAt": "2018-11-02T10:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 16,
+    "name": "loan.mp4",
+    "parentFileId": 6,
+    "fileTypeId": 2,
+    "chmod": 644,
+    "createdAt": "2018-11-02T09:30:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 15,
+    "name": "loan.mkv",
+    "parentFileId": 6,
+    "fileTypeId": 2,
+    "chmod": 644,
+    "createdAt": "2018-11-02T10:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "id": 16,
+    "name": "loan.avi",
+    "parentFileId": 6,
+    "fileTypeId": 2,
+    "chmod": 644,
+    "createdAt": "2018-11-02T11:00:00.000Z",
+    "deletedAt": null
+  }
+]

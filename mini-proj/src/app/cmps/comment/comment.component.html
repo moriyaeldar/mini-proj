@@ -1,0 +1,12 @@
+
+<div *ngFor="let comment of comments|async">
+  <ul>
+   <li *ngIf="comment.parentCommentId===commentId">
+   <p><img src="../../../assets/users/{{comment.ownerId}}.jpg" alt=""> 
+    <span>{{ getUserName(comment.ownerId) }}</span>
+    {{comment.txt}} </p> 
+    <button  (click)="onRemovecomment(comment.id)">delete</button>
+     <app-comment [comments]="comments" [id]="comment.id"></app-comment>
+   </li>
+  </ul>
+</div>

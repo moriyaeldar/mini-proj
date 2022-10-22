@@ -1,0 +1,17 @@
+<button (click)="onAddComment()">Add a comment</button>
+<form *ngIf="formOpen" (ngSubmit)="onSubmit()" #form="ngForm">
+  <input type="text" name="comment" id="comment" value="comment" />
+</form>
+<div *ngFor="let comment of comments | async">
+  <ul>
+    <li *ngIf="comment.parentCommentId === null">
+      <p>
+        <img src="../../../assets/users/{{ comment.ownerId }}.jpg" alt="" />
+        <span> {{ getUserName(comment.ownerId) }}</span>
+        {{ comment.txt }}
+      </p>
+      <button (click)="onRemovecomment(comment.id)">delete</button>
+      <app-comment [comments]="comments" [id]="comment.id"></app-comment>
+    </li>
+  </ul>
+</div>
